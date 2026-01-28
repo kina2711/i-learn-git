@@ -5,7 +5,7 @@
 **Bước 1: Tạo thư mục & Git**
 
 ```powershell
-# 1. Tạo thư mục dự án (Thay tên dự án của bạn vào)
+# 1. Tạo thư mục dự án
 mkdir Ten-Du-An-Moi
 
 # 2. Đi vào thư mục
@@ -14,14 +14,14 @@ cd Ten-Du-An-Moi
 # 3. Kích hoạt Git
 git init
 
-# 4. Đổi nhánh chính sang 'main' (Chuẩn quốc tế)
+# 4. Đổi nhánh chính sang 'main'
 git branch -M main
 
 ```
 
 **Bước 2: Tạo bộ 3 file "quyền lực"**
 
-1. **File `.gitignore**` (Chặn rác hệ thống & bảo mật):
+1. **File `.gitignore**`:
 ```powershell
 # Tạo file và thêm các dòng loại trừ phổ biến
 echo ".DS_Store" > .gitignore
@@ -33,7 +33,7 @@ echo "*.csv" >> .gitignore
 ```
 
 
-2. **File `README.md**` (Bìa dự án):
+2. **File `README.md**`:
 ```powershell
 echo "# Ten Du An Cua Toi" > README.md
 
@@ -83,7 +83,7 @@ SOFTWARE.
 # 1. Kết nối
 git remote add origin https://github.com/User/Ten-Repo.git
 
-# 2. Gom hàng (Lần đầu)
+# 2. Gom file
 git add .
 
 # 3. Đóng gói
@@ -96,7 +96,7 @@ git push -u origin main
 
 ---
 
-### PHẦN 2: QUY TRÌNH HẰNG NGÀY (Lặp đi lặp lại)
+### PHẦN 2: QUY TRÌNH HẰNG NGÀY
 
 Mỗi khi code xong một tính năng, sửa lỗi, hoặc hết ngày làm việc.
 
