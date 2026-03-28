@@ -9,8 +9,8 @@
 
 ## 2. Setup ban đầu (Làm trước khi code)
 ```bash
-git config --global user.name "Kina"
-git config --global user.email "kienthai2711@email.com"
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 - Tạo repo mới: `git init`  
 - Clone repo có sẵn: `git clone <url>`
